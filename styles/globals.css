@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+@font-face {
+    font-family: "GGX88";
+    src: url('../fonts/GGX88Lt-Regular.ttf') format("TrueType");
+}
+
+@font-face {
+    font-family: "GGX88 Regular";
+    src: url('../fonts/GGX88Bk-Regular.ttf') format("TrueType");
+}
+body{
+    background: #1F1E1D;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+a{
+    cursor: pointer;
+}
+.orezi-bg{
+    background: #F5AD00;
+}
+.orezi-clr{
+    color: #F5AD00;
+    margin: 40px 0;
+}
+.orezi-clr-btn{
+    color: #F5AD00;
+    margin: 40px 0;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition-property:  all;
+
+    transform-origin: left;
+}
+
+.orezi-clr-btn:hover{
+
+    height: 54px;
+max-width: 181px;
+width: 100%;
+border-radius: 29px;
+padding: 16px;
+transform-origin: left;
+    border: 1px solid #F5AD00 !important;
+}
+.orezi-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 220px;
+    height: 54px;
+    width: 100%;
+    color: #fff;
+    border: 1px solid #FFFFFF !important;
+    box-sizing: border-box;
+    border-radius: 29px;
+    cursor: pointer;
+    font-family: "GGX88";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.orezi-btn:hover{
+    background: #fff;
+    color: #1F1E1D ;
+}
+
+.orezi-btn:hover .arrow-btn{
+    color: #1F1E1D ;
+}
